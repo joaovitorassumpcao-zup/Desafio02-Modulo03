@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622671da-1c15-4be0-a7fb-53c4aa158f62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/clientes/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/clientes/ClienteOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/clientes/ClienteRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendedores/Vendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendedores/VendedorOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendedores/VendedorRepositorio.java" afterDir="false" />
+    <list default="true" id="622671da-1c15-4be0-a7fb-53c4aa158f62" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/compra/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/produtos/ProdutoBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/usuarios/UsuarioBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/usuarios/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/clientes/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/clientes/ClienteOnline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/clientes/ClienteRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendedores/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vende/Vende.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendedores/VendedorOnline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendedores/VendedorRepositorio.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,6 +67,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688495109692</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1688505519686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688505519686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>
