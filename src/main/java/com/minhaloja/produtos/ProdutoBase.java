@@ -1,12 +1,14 @@
 package com.minhaloja.produtos;
 
+import com.minhaloja.usuarios.Vendedor;
+
 public abstract class ProdutoBase {
 
     private Integer id;
     private String nome;
     private double preco;
 
-    public ProdutoBase(Integer id, String nome, double preco) {
+    public ProdutoBase(Integer id, String nome, double preco, Vendedor vendedor) {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
