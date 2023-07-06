@@ -7,6 +7,7 @@ public abstract class ProdutoBase {
     private Integer id;
     private String nome;
     private double preco;
+    private Vendedor vendedor;
 
     public ProdutoBase(Integer id, String nome, double preco, Vendedor vendedor) {
         this.id = id;
@@ -36,5 +37,13 @@ public abstract class ProdutoBase {
 
     public void setPreco(double preco) {
         this.preco = preco;
+    }
+
+    public Vendedor getVendedor() {
+        return vendedor;
+    }
+
+    public void setVendedor(Vendedor vendedor) {
+        this.vendedor = vendedor;
     }
 }

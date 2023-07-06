@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622671da-1c15-4be0-a7fb-53c4aa158f62" name="Changes" comment="Misc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendas/Vendas.java" afterDir="false" />
+    <list default="true" id="622671da-1c15-4be0-a7fb-53c4aa158f62" name="Changes" comment="Vendas.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/compra/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/compra/Compra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/usuarios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/usuarios/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/usuarios/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/usuarios/Vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/vende/Vende.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vende/Vende.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/produtos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/produtos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/produtos/ProdutoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/produtos/ProdutoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendas/Vendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/vendas/Vendas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,26 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.minhaloja.App" />
+      <module name="Desafio02-Modulo03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minhaloja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,13 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688593922241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Vendas.java">
+      <created>1688603226191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688603226191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Estrutura" />
     <MESSAGE value="Misc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Misc" />
+    <MESSAGE value="Vendas.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vendas.java" />
   </component>
 </project>
