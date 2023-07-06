@@ -6,5 +6,5 @@ import com.minhaloja.produtos.ProdutoDB;
 import java.io.File;
 
 public interface Vende {
-    void cadastrarProduto(Produto produto);
+    void cadastrarProduto(Produto produto, ProdutoDB produtoDB);
 }
