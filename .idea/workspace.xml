@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622671da-1c15-4be0-a7fb-53c4aa158f62" name="Changes" comment="Estrutura">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/UserCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/UserVendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/ProdutoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/VendedorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/VendedorService.java" afterDir="false" />
+    <list default="true" id="622671da-1c15-4be0-a7fb-53c4aa158f62" name="Changes" comment="Domain">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/ApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/ProdutoVideoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/infrastructure/ClienteInMemoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/infrastructure/ProdutoInMemoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/infrastructure/VendaInMemoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/infrastructure/VendedorInMemoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/VendaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/VendaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/UserCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/UserCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/UserVendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/UserVendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/models/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/repositories/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/ProdutoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/VendaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minhaloja/domain/services/VendaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +63,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.minhaloja.App" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.minhaloja.Main" />
       <module name="Desafio02-Modulo03" />
       <extension name="coverage">
         <pattern>
@@ -76,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689183212913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Domain">
+      <created>1689275758784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689275758784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +167,8 @@
     <MESSAGE value="Vendas.java" />
     <MESSAGE value="Reset" />
     <MESSAGE value="Estrutura" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estrutura" />
+    <MESSAGE value="Domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Domain" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

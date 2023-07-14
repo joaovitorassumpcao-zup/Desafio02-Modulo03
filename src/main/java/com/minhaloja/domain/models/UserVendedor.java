@@ -1,6 +1,7 @@
 package com.minhaloja.domain.models;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class UserVendedor implements User {
@@ -54,5 +55,15 @@ public class UserVendedor implements User {
     @Override
     public String getSenha() {
         return this.senha;
+    }
+
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        UserVendedor cliente = (UserVendedor) o;
+        return Objects.equals(email, cliente.email);
     }
 }

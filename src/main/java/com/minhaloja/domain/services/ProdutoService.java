@@ -3,6 +3,7 @@ package com.minhaloja.domain.services;
 import com.minhaloja.domain.models.Produto;
 import com.minhaloja.domain.repositories.ProdutoRepository;
 
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class ProdutoService {
@@ -20,5 +21,9 @@ public class ProdutoService {
         return produtoRepository.getByID(id).orElseThrow(
                 () -> new NoSuchElementException("Produto de ID " + id + " não encontrado")
         );
+    }
+
+    public List<Produto> getAll(){
+        return produtoRepository.getAll();
     }
 }

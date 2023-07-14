@@ -20,8 +20,7 @@ public class Venda {
         this.data = venda.data;
     }
 
-    public Venda(Integer ID, UserCliente cliente, UserVendedor vendedor, Produto produto, BigDecimal valor) {
-        this.Id = ID;
+    public Venda(UserCliente cliente, UserVendedor vendedor, Produto produto, BigDecimal valor) {
         this.cliente = cliente;
         this.vendedor = vendedor;
         this.produto = produto;
